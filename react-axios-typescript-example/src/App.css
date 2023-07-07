@@ -1,0 +1,107 @@
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+h2 {
+  font-size: 0.8vw;
+}
+.isVisiblefalse {
+  display: none;
+}
+.classFalse {
+  display: none;
+}
+.forecastFalse {
+  display: none;
+}
+.forecast-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-template-areas:
+    'today today today today today today'
+    'first-day second-day third-day fourth-day fifth-day sixth-day';
+}
+.day1 {
+  grid-area: today;
+  display: grid;
+  grid-template-areas:
+    'day space temp'
+    'pic space temp'
+    'forecast forecast temp';
+  grid-template-columns: 1fr 25px 5fr;
+}
+.day-of-the-week {
+  grid-area: day;
+}
+.space {
+  grid-area: space;
+}
+.icon {
+  grid-area: pic;
+}
+.temperature {
+  grid-area: temp;
+}
+.longForecast {
+  grid-area: forecast;
+}
+.day1 h3 {
+  font-size: 200px;
+}
+.day1 .day-of-the-week {
+  font-size: 50px;
+}
+
+.day2 {
+  grid-area: today;
+  grid-area: today;
+  display: grid;
+  grid-template-areas:
+    'day temp'
+    'pic temp'
+    'forecast temp';
+  grid-template-columns: 1fr 5fr;
+}
+.day3 {
+  grid-area: first-day;
+  font-size: 0.7vw;
+}
+.day4 {
+  grid-area: first-day;
+  font-size: 0.7vw;
+}
+.day5 {
+  grid-area: second-day;
+}
+.day6 {
+  grid-area: second-day;
+}
+.day7 {
+  grid-area: third-day;
+}
+.day8 {
+  grid-area: third-day;
+}
+.day9 {
+  grid-area: fourth-day;
+}
+.day10 {
+  grid-area: fourth-day;
+}
+.day11 {
+  grid-area: fifth-day;
+}
+.day12 {
+  grid-area: fifth-day;
+}
+.day13 {
+  grid-area: sixth-day;
+}
+.day14 {
+  grid-area: sixth-day;
+}
